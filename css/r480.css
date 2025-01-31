@@ -1,0 +1,48 @@
+@media screen and (max-width:480px) {
+    #greet {
+        margin: 10px;
+    }
+    #artcontact {
+        display: none;
+    }
+    header nav  {
+        display: none;
+    }
+    header #toph {
+        
+    }
+    #images {
+        display: none;
+    }
+    main #art01 {
+        margin: 10px;
+       
+    }
+    main #span {
+        display: none;
+    }
+    main #list {
+        margin: 10px;
+        
+    }
+    main #list img{
+        display: none;
+    }
+    main #h {
+        margin: 10px;
+    }
+    main #cards {
+        display: none;
+    }
+    main #image06 {
+        display: none;
+    }
+    main #yr {
+        margin: 10px;
+        width: 80%;
+    }
+    footer .box {
+        display: none;
+    }
+   
+}
