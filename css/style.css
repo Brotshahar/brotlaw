@@ -69,7 +69,12 @@ main #logo{
 main #span span {
     color: #96765c; 
     margin-right: 5px;
-    font-size: 23px;
+    font-size: 20px;
+}
+main #span a {
+    color: #96765c;
+    text-decoration: none;
+    cursor: pointer;
 }
 main #span {
     text-align: center;
