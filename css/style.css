@@ -69,6 +69,7 @@ main #logo{
 main #span span {
     color: #96765c; 
     margin-right: 5px;
+    font-size: 23px;
 }
 main #span {
     text-align: center;

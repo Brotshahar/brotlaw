@@ -9,7 +9,13 @@
         display: none;
     }
     header #toph {
-        
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    header #toph h2{
+        margin: 0px;
+        margin-bottom: 5px;
     }
     #images {
         display: none;
@@ -18,9 +24,7 @@
         margin: 10px;
        
     }
-    main #span {
-        display: none;
-    }
+    
     main #list {
         margin: 10px;
         
@@ -29,7 +33,7 @@
         display: none;
     }
     main #h {
-        margin: 10px;
+        margin-right: 20px;
     }
     main #cards {
         display: none;
