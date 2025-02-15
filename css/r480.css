@@ -41,6 +41,10 @@
     main #image06 {
         display: none;
     }
+    main #followus #links{
+        margin: 40px;
+    }
+
     main #yr {
         margin: 10px;
         width: 80%;
