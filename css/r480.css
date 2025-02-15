@@ -5,6 +5,9 @@
     #artcontact {
         display: none;
     }
+    header {
+        height: 100%;
+    }
     header nav  {
         display: none;
     }
