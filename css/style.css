@@ -5,9 +5,9 @@ body {
  }
  header {
     display: flex;
-    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
     background-color:#FEF9E1;
-    height: 14vh;
     border-bottom: 1px solid #6D2323;
 }
  header nav {
@@ -66,13 +66,16 @@ main #logo{
     text-align: center;
     margin: 20px;
 }
-main #span span {
-    color: #96765c; 
+main #span  span{
+    color: brown; 
     margin-right: 5px;
     font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid brown;
+    
 }
 main #span a {
-    color: #96765c;
+    color: brown;
     text-decoration: none;
     cursor: pointer;
 }
