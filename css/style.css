@@ -33,15 +33,6 @@ body {
     color: #6D2323;
     text-align: center;  
 }
-header #toph {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    height: 100%;
-    margin: 0px auto;
-}
-
-
 #greet {
     margin-right: 200px;
     color: brown;
