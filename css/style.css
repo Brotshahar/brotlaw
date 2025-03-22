@@ -5,7 +5,7 @@ body {
  }
  header {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     background-color:#FEF9E1;
     border-bottom: 1px solid #6D2323;
