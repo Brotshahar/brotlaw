@@ -204,7 +204,8 @@ main #followus #links{
 }
 main #followus i {
     color: brown;
-    margin-left: 10px;
+    margin-left: 20px;
+   font-size: 35px;
 }
 footer {
     display:flex;
