@@ -60,7 +60,7 @@ main #logo{
     margin: 0px auto;
     margin-top: 20px;
     padding-top: 20px;
-    background-color:#FEF9E1;
+    background-color:#ffffff;
     border-top: 1px solid #6D2323;
 }
 main #span {
@@ -68,7 +68,7 @@ main #span {
     margin: 0px auto;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    background-color:#FEF9E1;
+    background-color:#ffffff;
     border-bottom: 1px solid #6D2323;
 }
 main #span  span{
