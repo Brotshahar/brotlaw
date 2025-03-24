@@ -97,6 +97,8 @@ main #h {
 .slideshow-container {
     position: relative;
     padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   /* Slides */
 .mySlides {
@@ -104,7 +106,7 @@ main #h {
     color: brown;
     padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
   }
   /* The dot/bullet/indicator container */
@@ -155,12 +157,12 @@ main #id_card .card a {
 main #image06 {
     display: flex;
     justify-content: center;
-    align-items: end;
     margin: 30px;
 }
 main #image06 img {
     padding: 5px;
     border: 1px solid brown;
+    background-color:#FEF9E1;
 }
 main #yr {
     display: flex;
