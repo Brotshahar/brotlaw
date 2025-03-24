@@ -38,7 +38,9 @@ body {
     color: brown;
 }
 #images {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #images img {
     padding: 5px;
@@ -55,7 +57,19 @@ main #art01 h2 {
 }
 main #logo{
     text-align: center;
-    margin: 20px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color:#FEF9E1;
+    border-top: 1px solid #6D2323;
+}
+main #span {
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color:#FEF9E1;
+    border-bottom: 1px solid #6D2323;
 }
 main #span  span{
     color: brown; 
@@ -70,22 +84,17 @@ main #span a {
     text-decoration: none;
     cursor: pointer;
 }
-main #span {
-    text-align: center;
-    width: 80%;
-    margin: 30px auto;
-}
+
 main #span i {
     margin-left: 10px;
 }
 main #list {
-    width: 70%;
-    margin: 30px auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
     align-items: center;
+    gap: 50px;
+    margin: 30px;
+    flex-wrap: wrap;
 }
 main #h {
     margin-right: 200px;
@@ -215,24 +224,13 @@ main #followus i {
 footer {
     display:flex;
     background-color:#FEF9E1;
-    height: 40vh;
     justify-content: space-around;
     border-top: 1px solid #6D2323;
 }
-footer #h {
-    color: #96765c;
-}
-footer .box ul {
-    list-style: none;
-    padding: 0px;
-}
-footer .box ul li a{
-    color: black;
-    text-decoration: none;
-}
+
 footer #rights {
     text-align: center;
 }
 footer #rights img {
-    margin-top: 50px;
+    margin-top: 30px;
 }

@@ -20,9 +20,7 @@
         margin: 0px;
         margin-bottom: 5px;
     }
-    #images {
-        display: none;
-    }
+    
     main #art01 {
         margin: 10px;
        
@@ -47,9 +45,6 @@
     main #yr {
         margin: 10px;
         width: 80%;
-    }
-    footer .box {
-        display: none;
     }
    
 }
