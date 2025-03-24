@@ -73,14 +73,19 @@ main #span a {
 main #span {
     text-align: center;
     width: 80%;
-    margin: 0px auto;
+    margin: 30px auto;
 }
 main #span i {
     margin-left: 10px;
 }
 main #list {
+    width: 70%;
+    margin: 30px auto;
     display: flex;
-    margin-right: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
 }
 main #h {
     margin-right: 200px;
