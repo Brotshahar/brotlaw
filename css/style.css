@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-size: 18px;
    
  }
  header {
@@ -71,18 +72,10 @@ main #span {
     background-color:#ffffff;
     border-bottom: 1px solid #6D2323;
 }
-main #span  span{
-    color: brown; 
-    margin-right: 5px;
-    font-size: 20px;
-    font-weight: 700;
-    border-bottom: 1px solid brown;
-    
-}
+
 main #span a {
     color: brown;
-    text-decoration: none;
-    cursor: pointer;
+    font-size: 22px;
 }
 
 main #span i {
@@ -103,6 +96,7 @@ main #h {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
+    padding-top: 20px;
   }
   /* Slides */
 .mySlides {
