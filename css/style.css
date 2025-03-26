@@ -42,6 +42,19 @@ header #mainlogo {
     align-items: center;
     
 }
+header #callforaction a {
+    text-decoration: none;
+}
+header #callforaction p{
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #6D2323;
+    border-radius: 100px;
+    margin: 40px;
+}
 main #h {
     margin-right: 100px;
     color:#6D2323;
