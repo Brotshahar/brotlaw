@@ -42,6 +42,10 @@ header #mainlogo {
     align-items: center;
     
 }
+header #callforaction {
+    width: 80%;
+    margin: 0px auto;
+}
 header #callforaction a {
     text-decoration: none;
 }
@@ -169,21 +173,21 @@ main #yr {
     height: 4vh;
  }
   main #contact form button{
-    width: 130px;
+    width: 150px;
+    height: 30px;
     font-size: 22px;
-    color:#6D2323;
-    border : 1px solid#6D2323;
-    border-radius: 8px;
-    background-color: white;
+    color:#ffffff;
+    border : 1px solid#000000;
+    border-radius: 100px;
+    background-color: #6D2323;
+    margin: 20px;
     
 }
 main #contact form input {
     border: 1px solid #6D2323;
     border-radius: 5px;
 }
-main #contact form button:hover {
-    background-color:#FEF9E1;
-}
+
  main #b {
     width: 20%;
     margin: 20px auto;
