@@ -64,8 +64,9 @@ main #h {
     border-radius: 15px 8px;
     background-color:#FEF9E1;
 }
-main #art01 p{
-    margin-right: 100px;
+main #art01{
+    width: 80%;
+    margin: 0px auto;
 }
 
 main #list {
@@ -186,9 +187,9 @@ main #followus i {
 }
 footer {
     display:flex;
-    background-color:#FEF9E1;
     justify-content: space-around;
     border-top: 1px solid #6D2323;
+    padding: 50px;
 }
 
 footer #rights {
