@@ -24,6 +24,7 @@ body {
  
  header nav ul a {
     text-decoration: none;
+    color: black;
  }
  header nav ul li  i{
     margin-left: 10px; 
