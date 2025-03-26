@@ -138,6 +138,11 @@ main #image06 {
     justify-content: center;
     margin: 30px;
 }
+main #image05 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
 main #image06 img {
     padding: 5px;
     border: 1px solid brown;
