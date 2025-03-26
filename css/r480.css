@@ -1,29 +1,20 @@
 @media screen and (max-width:480px) {
-    #greet {
-        margin: 10px;
-    }
+    
     #artcontact {
         display: none;
-    }
-    header {
-        height: 100%;
     }
     header nav  {
         display: none;
     }
-    header #toph {
-        display: flex;
-        flex-direction: column;
-        font-size: 13px;
-    }
-    header #toph h2{
-        margin: 0px;
-        margin-bottom: 5px;
-    }
+   
     
     main #art01 {
         margin: 10px;
-       
+        
+    }
+    main #art01 p{
+        margin: 0px;
+        margin-right: 20px;
     }
     
     main #img005{
@@ -32,9 +23,7 @@
     main #h {
         margin-right: 20px;
     }
-    main #cards {
-        display: none;
-    }
+    
     main #image06 {
         display: none;
     }
