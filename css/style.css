@@ -26,6 +26,10 @@ body {
     text-decoration: none;
     color: black;
  }
+ header nav ul a:hover {
+    text-decoration:underline;
+    font-weight: 300;
+ }
  header nav ul li  i{
     margin-left: 10px; 
 }
