@@ -70,23 +70,7 @@ main #logo{
     background-color:#ffffff;
     border-top: 1px solid #6D2323;
 }
-main #span {
-    text-align: center;
-    margin: 0px auto;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    background-color:#ffffff;
-    border-bottom: 1px solid #6D2323;
-}
 
-main #span a {
-    color:#6D2323;
-    font-size: 22px;
-}
-
-main #span i {
-    margin-left: 10px;
-}
 main #list {
     display: flex;
     justify-content: center;
@@ -163,31 +147,32 @@ main #yr {
  main #contact {
     display: flex;
     width: 50%;
-    height: 100px;
     margin:  0px auto;  
     justify-content: center;
+    margin-bottom: 100px;
  }
  main #contact form {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    height: 3vh;
+    height: 4vh;
  }
   main #contact form button{
     width: 130px;
-    height: 30px;
-    color: brown;
-    border : 1px solid brown;
+    font-size: 22px;
+    color:#6D2323;
+    border : 1px solid#6D2323;
     border-radius: 8px;
     background-color: white;
     
 }
+main #contact form input {
+    border: 1px solid #6D2323;
+    border-radius: 5px;
+}
 main #contact form button:hover {
     background-color:#FEF9E1;
 }
-main #p {
-    text-align: center;
- }
  main #b {
     width: 20%;
     margin: 20px auto;
