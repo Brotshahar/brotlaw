@@ -34,7 +34,7 @@ body {
     margin-left: 10px; 
 }
 header #headtop {
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between; 
@@ -47,7 +47,7 @@ header #mainlogo {
     
 }
 header #callforaction {
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
 }
 header #callforaction a {
@@ -82,7 +82,7 @@ main #h {
 #images img {
     padding: 5px;
     margin: 10px;
-    border: 1px solid brown;
+    border: 1px solid #6D2323;
     border-radius: 15px 8px;
     background-color:#FEF9E1;
 }
@@ -107,7 +107,9 @@ main #list p {
     border: 1px solid rgb(0, 0, 0);
     background-color: #6D2323;
     border-radius: 100px;
+    cursor: pointer;
 }
+
 /* Slideshow container */
 .slideshow-container {
     position: relative;
