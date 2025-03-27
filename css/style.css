@@ -67,10 +67,14 @@ main #h {
     width: 80%;
     margin: 0px auto;
     color:#6D2323;
+    font-size: 30px;
+    font-weight: 400;
 }
 #greet {
     text-align: center;
     color: #6D2323;
+    font-size: 30px;
+    font-weight: 400;
 }
 #images {
     width: 80%;
@@ -96,7 +100,6 @@ main #list {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin: 30px;
     flex-wrap: wrap;
 }
 main #list p {
