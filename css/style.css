@@ -64,7 +64,8 @@ header #callforaction p{
     margin: 40px;
 }
 main #h {
-    margin-right: 100px;
+    width: 80%;
+    margin: 0px auto;
     color:#6D2323;
 }
 #greet {
@@ -98,7 +99,15 @@ main #list {
     margin: 30px;
     flex-wrap: wrap;
 }
-
+main #list p {
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #6D2323;
+    border-radius: 100px;
+}
 /* Slideshow container */
 .slideshow-container {
     position: relative;
@@ -198,8 +207,8 @@ main #contact form input {
  }
 
 main #followus #links{
-    margin-right: 150px;
-    margin-bottom: 20px;
+  width: 80%;
+  margin: 30px auto;
 }
 main #followus i {
     color:#6D2323;
