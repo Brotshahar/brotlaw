@@ -179,18 +179,14 @@ main #yr {
  }
  main #contact {
     display: flex;
-    width: 50%;
+    width: 80%;
     margin:  0px auto;  
     justify-content: center;
+    align-items: center;
     margin-bottom: 100px;
  }
- main #contact form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    height: 4vh;
- }
-  main #contact form button{
+ 
+  main #b button{
     width: 150px;
     height: 30px;
     font-size: 22px;
@@ -198,12 +194,14 @@ main #yr {
     border : 1px solid#000000;
     border-radius: 100px;
     background-color: #6D2323;
-    margin: 20px;
     
 }
-main #contact form input {
+main #contact input {
     border: 1px solid #6D2323;
     border-radius: 5px;
+    height: 30px;
+    font-size: 22px;
+    margin: 20px auto;
 }
 
  main #b {

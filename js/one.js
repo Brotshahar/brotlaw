@@ -1,32 +1,19 @@
 console.log ('Thank You');
-let x = 5;
-let y = 5;
 
-let result = x + y;
-if (x === y) {
-    console.log('BOOM');
-}
+const fname = document.querySelector("#fullname");
+const mobile = document.querySelector("#phone");
+const mail = document.querySelector("#email");
 
-console.log(result);
 
-let day = 3;
 
-if (day === 1){
-    console.log('Sunday');
+function func001(){
+    console.log ("workeing");
+    console.log (fname.value);
+    console.log (mobile.value);
+    console.log (mail.value);
+    fname.value = ("");
+    mobile.value = ("");
+    mail.value = ("");
+    // contact.style.display = ("none");
+    alert("ההודעה נשלחה, המון תודה");
 }
-else if (day === 2) {
-    console.log('Monday');
-}
-else  {
-    console.log('Thuseday');
-};
-
-if (day === 1 ) {
-    console.log('Have a nice week');
-}
-else if ((day > 1 ) & ( day <5 )) {
-    console.log('Good day');
-}
-else {
-    console.log('Weekend');
-};
