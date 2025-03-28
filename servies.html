@@ -58,33 +58,7 @@
     </section>
 
     <main>
-        <article>
-            <div id="h">
-                <p>במשרדנו....</p>
-            </div>
-            <div id="art01">
-
-                <p>
-                    במשרדנו תוכלו למצוא את כל הייעוץ המשפטי הנדרש תחת קורת גג אחת. <br>
-                    ברוט שחר, עם מומחיות וניסיון רב במשפט
-                    אזרחי ומסחרי, מעניק שירות מעולה ללקוחות על בסיס אמינות ומקצועיות.<br>
-                    ברוט שחר מתמחה בניהול תיקים מורכבים ובהשגת התוצאות הטובות ביותר עבור לקוחותינו. <br>
-                    המשרד מציע גם שירותי גישור מקצועיים שנועדו לפתור סכסוכים ולהגיע להסכמות בצורה יעילה ונטולת לחצים.
-                    <br>
-                    משרדנו נמצא בחולון ואנו תמיד זמינים עבורכם.
-
-                </p>
-            </div>
-        </article>
-        <section>
-            <div id="images">
-                <img src="./images/image01.jpg" / height="150" width="250" alt="1" />
-                <img src="./images/image02.jpg" / height="150" width="250" alr="2" />
-                <img src="./images/image03.jpg" / height="150" width="250" alt="3" />
-                <img src="./images/image04.jpg" / height="150" width="250" alt="4" />
-                <img src="./images/image05.jpg" / height="150" width="250" alt="5" />
-            </div>
-        </section>
+        
         <section>
             <div id="h">
                 <p>להצעת מחיר התקשרו</p>
@@ -98,62 +72,56 @@
                 <p>נושאים בהם משרדנו מטפל:</p>
             </div>
             <div id="list" >
-                <p>תביעות קטנות</p>
+                <p>ייעוץ ועזרה ממשפטית</p>
                 <p>הוצאה לפועל</p>
-                <p>תאונות דרכים</p>
-                <p>חוזים</p>
+                <p>חתימה על תצהירים</p>
                 <p>גישור</p>
             </div>
-            <div id="list">
-                <p>ליטיגציה</p>
-                <p>ביטוח</p>
+            <div id="h">
+                <p>דיני חוזים ועסקים</p>
             </div>
             <div id="list" >
+                <p>עריכת חוזים והסקמים</p>
+                <p>הפרות חוזים</p>
+                <p>ייצוג בסכסוכים עסקיים</p>
+                <p>גישור</p>
+            </div>
+            <div id="h">
+                <p>דיני מקרקעין</p>
+            </div>
+            <div id="list">
+                <p>העברת זכויות</p>
                 <p>שכירות</p>
-                <p>הגנת הצרכן</p>
-                <p>סכסוכי שכנים</p>
+                <p>סיכסוכי שכנים</p>
+            </div>
+            <div id="h">
+                <p>דיני ביטוח</p>
+            </div>
+            <div id="list" >
+                <p>תאונות דרכים</p>
+                <p>תביעות ביטוח</p>
+                <p>כתבי הגנה</p>
+            </div>
+            <div id="h">
+                <p>קניין רוחני</p>
+            </div>
+            <div id="list" >
+                <p>הגנה על קניין רוחני ותביעות הפרה</p>
+                <p>פרטיות ברשת ואבטחת מידע</p>
+                <p>כתבי הגנה</p>
+            </div>
+            <div id="h">
+                <p>דיני עבודה</p>
+            </div>
+            <div id="list" >
+                <p>ייצוג עובדים</p>
+                <p>ייצוג מעסיקים</p>
+                <p>הסכמים</p>
+            </div>
+            <div id="h">
+                <p>גישור</p>
             </div>
             <img id="img005" src="./images/img001.png" width="500px" height="270px" style="margin-right: 200px;" />
-        </section>
-        <section>
-            <div id="h">
-                <p>המלצות:</p>
-            </div>
-            <div class="slideshow-container">
-                <div class="mySlides">
-                    <i class="fa-solid fa-quote-left"></i><br>
-                    <p>עורך דין מבריק ומלא תשוקה...
-                        <p />
-
-                </div>
-                <div class="mySlides">
-                    <i class="fa-solid fa-quote-left"></i><br>
-                    <p>עורך דין חרוץ ואנושי...תוצאות מוכחות
-                        <p />
-
-
-                </div>
-                <div class="mySlides">
-                    <i class="fa-solid fa-quote-left"></i><br>
-                    <p>אדם ועורך דין מדהים
-                        <p />
-
-
-                </div>
-
-            </div>
-
-            <!-- Dots/bullets/indicators -->
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-        </section>
-        <section>
-            <div id="image06">
-                <img src="./images/1.jpg" width="600px" height="350px" />
-            </div>
         </section>
         <section>
             <div id="yr">
@@ -224,31 +192,7 @@
         }
         document.getElementById("greet").innerHTML = greeting;
     </script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-
-    </script>
+   
 </body>
 
 </html>
