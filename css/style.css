@@ -97,9 +97,7 @@ main #art01{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    border: 1px solid #6D2323;
-    border-radius: 5px;
-
+  
 }
 main #art01 #rec001{
     width: 50%; 
