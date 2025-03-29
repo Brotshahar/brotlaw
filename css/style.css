@@ -90,6 +90,10 @@ main #h {
     border-radius: 15px 8px;
     background-color:#FEF9E1;
 }
+main #art03{
+    width: 80%;
+    margin: 20px auto;
+}
 main #art01{
     width: 50%;
     margin: 20px auto;
