@@ -91,8 +91,26 @@ main #h {
     background-color:#FEF9E1;
 }
 main #art01{
-    width: 80%;
-    margin: 0px auto;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #6D2323;
+    border-radius: 5px;
+
+}
+main #art01 #rec001{
+    width: 50%; 
+
+}
+main #art01 #star {
+    margin-bottom: 30px;
+}
+main #art01 i {
+    font-size: 15px;
+    color: brown;
 }
 
 main #list {
