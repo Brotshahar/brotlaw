@@ -220,7 +220,8 @@ main #contact input {
     border: 1px solid #6D2323;
     border-radius: 5px;
     height: 30px;
-    margin: 20px auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
  main #b {
