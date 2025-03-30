@@ -220,13 +220,12 @@ main #contact input {
     border: 1px solid #6D2323;
     border-radius: 5px;
     height: 30px;
-    font-size: 22px;
     margin: 20px auto;
 }
 
  main #b {
-    width: 20%;
-    margin: 20px auto;
+   display: flex;
+   justify-content: center;
  }
 
 main #followus #links{
