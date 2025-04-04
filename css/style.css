@@ -231,13 +231,17 @@ main #contact input {
  }
 
 main #followus #links{
-  width: 80%;
-  margin: 30px auto;
+    width: 80%;
+    margin: 30px auto;
 }
-main #followus i {
+main #followus a {
+    text-decoration: none;
     color:#6D2323;
     margin-left: 20px;
-   font-size: 28px;
+   font-size: 22px;
+}
+main #followus a:hover {
+    border-bottom: 1px solid #6D2323;
 }
 footer {
     display:flex;
