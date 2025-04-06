@@ -1,4 +1,4 @@
 User-agent: *
 allow: /
 
-Sitemap: https://brotshahar.github.io/brotlaw/sitemap.xml
+Sitemap: ./sitemap.xml
