@@ -117,14 +117,17 @@ main #art01 i {
 
 main #list {
     width: 80%;
-    margin: 35px auto;
+    margin: 0px auto;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     flex-wrap: wrap;
 }
 main #list p {
     text-align: center;
+    margin: 0px;
     color: white;
     width: 150px;
     height: 30px;
