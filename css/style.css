@@ -116,9 +116,10 @@ main #art01 i {
 }
 
 main #list {
+    width: 80%;
+    margin: 35px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 50px;
     flex-wrap: wrap;
 }
