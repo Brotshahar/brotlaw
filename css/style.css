@@ -202,13 +202,16 @@ main #yr {
     margin: 0px auto;
  }
  main #contact {
-    width: 30%;
+    width: 25%;
+    padding: 40px;
     margin:  0px auto;  
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+    align-items: start;
+    border: 1px solid #6D2323;
+    border-radius: 5px;
+    box-shadow:1px 1px 4px #6D2323;
  }
  
   main #b button{

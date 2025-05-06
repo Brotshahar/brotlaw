@@ -136,21 +136,24 @@
                 <p>יצירת קשר</p>
             </div>
             <div id="contact">
-                <!-- <form> -->
-                    <label for="fullname"> שם מלא*</label>
-                    <input id="fullname" type="text" required />
+                <form>
+                    <label for="id_name"> שם מלא*</label>
+                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
+                    <span id="nameError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="phone"> טלפון נייד*</label>
-                    <input id="phone" type="text" required />
+                    <label for="id_phone"> טלפון נייד*</label>
+                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
+                    <span id="phoneError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="email"> דואר אלקטרוני*</label>
-                    <input id="email" type="email" required />
-                    
-                    
-                <!-- </form> -->
-            </div>
-            <div id="b">
-                <button type="button" id="myBtn" onclick="func001()"> שלח </button>
+                    <label for="email">דואר אלקטרוני*</label>
+                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
+                    <span id="emailError" class="error"><i class="fa-solid fa-circle-dot" ></i></span><br><br>
+
+                    <div id="b">
+                        <button type="submit" id="myBtn"> שלח </button>
+                    </div><br><br>
+                    <p id="result"></p>
+                </form>
             </div>
         </section>
         <section>
