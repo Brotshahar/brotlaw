@@ -23,9 +23,12 @@ form.addEventListener("submit",(e) => {
         nameError.innerHTML = `<i class="fa-solid fa-circle-dot"></i>`;
         emailError.innerHTML = `<i class="fa-solid fa-circle-dot"></i>`;
         phoneError.innerHTML = `<i class="fa-solid fa-circle-dot"></i>`;
+        const intervalID = setInterval(flush, 3500);
   
 })
-
+    function flush(){
+        result.innerHTML = "פרטים ליצירת קשר";
+    }
    
     // alert("ההודעה נשלחה, המון תודה");
     function validateInputs (target){;
