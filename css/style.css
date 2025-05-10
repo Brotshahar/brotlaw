@@ -80,7 +80,7 @@ main #h {
     width: 80%;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 #images img {
@@ -116,7 +116,7 @@ main #art01 i {
 }
 
 main #list {
-    width: 80%;
+    width: 60%;
     margin: 0px auto;
     margin-bottom: 30px;
     display: flex;
@@ -191,6 +191,8 @@ main #image06 img {
     background-color:#FEF9E1;
 }
 main #yr {
+     width: 50%;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,8 +200,7 @@ main #yr {
     color: #ffce1f;
     font-weight: bold;
     border-left: 2px solid #6D2323 ; 
-    width: 50%;
-    margin: 0px auto;
+   
  }
  main #contact {
     width: 25%;
