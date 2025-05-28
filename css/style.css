@@ -240,20 +240,24 @@ main #contact input {
    justify-content: center;
  }
 
-main #followus #links{
+ #followus #links{
     width: 80%;
     margin: 30px auto;
 }
-main #followus a {
-    text-decoration: none;
+ #followus a {
     color:#6D2323;
     margin-left: 20px;
+   font-size: 18px;
+}
+#followus i {
+    color:#6D2323;
    font-size: 24px;
 }
-
+#followus i:hover {
+    color:#6d2323c8;
+}
 footer {
     text-align: center;
-    border-top: 1px solid #6D2323;
     padding: 50px;
 }
 
