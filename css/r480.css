@@ -35,5 +35,8 @@
         margin: 10px;
         width: 80%;
     }
+    footer #rights #mainlogo {
+         display: none;
+    }
    
 }
