@@ -209,7 +209,7 @@ main #yr {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     border: 1px solid #6D2323;
     border-radius: 5px;
     box-shadow:1px 1px 4px #6D2323;
@@ -252,14 +252,16 @@ main #followus a {
 }
 
 footer {
-    display:flex;
-    justify-content: space-around;
+    text-align: center;
     border-top: 1px solid #6D2323;
     padding: 50px;
 }
 
 footer #rights {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
 }
 footer #rights img {
     margin-top: 30px;

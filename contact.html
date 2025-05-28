@@ -91,23 +91,26 @@
                 <span>אנו תומכים במשפחות החטופים והחזרת החטופים במהרה למשפחותיהם</span>
             </div>
         </section>
-        <section id="artcontact">
+       <section id="artcontact">
             <div id="h">
                 <p>יצירת קשר</p>
             </div>
             <div id="contact">
                 <form>
-                    <label for="id_name"> שם מלא*</label>
-                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
+                    <!-- <label for="id_name"> שם מלא*</label> -->
+                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" placeholder="שם מלא*"
+                        required />
                     <span id="nameError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="id_phone"> טלפון נייד*</label>
-                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
+                    <!-- <label for="id_phone"> טלפון נייד*</label> -->
+                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone"
+                        placeholder="טלפון נייד*" required />
                     <span id="phoneError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="email">דואר אלקטרוני*</label>
-                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
-                    <span id="emailError" class="error"><i class="fa-solid fa-circle-dot" ></i></span><br><br>
+                    <!-- <label for="email">דואר אלקטרוני*</label> -->
+                    <input onblur="validateInputs('email')" type="email" id="email" name="email"
+                        placeholder="דואר אלקטרוני*" required />
+                    <span id="emailError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
                     <div id="b">
                         <button type="submit" id="myBtn"> שלח </button>
@@ -115,6 +118,7 @@
                     <p id="result">פרטים ליצירת קשר</p>
                 </form>
             </div>
+
         </section>
         <section>
             <div id="followus">
@@ -122,21 +126,43 @@
                     <p>ניתן לעקוב אחריינו:</p>
                 </div>
                 <div id="links">
-                    <a href="https://www.facebook.com/profile.php?id=61561751233056" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/shahar-brot-7a437352/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/shaharbroti/" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UC9moCQmUIaMHxjv66oiS7kw" target="_blank"><i
+                    <a title="facebook brot shahar lawyer" href="https://www.facebook.com/profile.php?id=61561751233056"
+                        target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a title="linkedin - brot shahar lawyer" href="https://www.linkedin.com/in/shahar-brot-7a437352/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a title="instagram - brot shahar lawyer" href="https://www.instagram.com/shaharbroti/"
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a title="youtube - brot shahar lawyer"
+                        href="https://www.youtube.com/channel/UC9moCQmUIaMHxjv66oiS7kw" target="_blank"><i
                             class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="followus">
+                <div id="h">
+                    <p>מאמרים:</p>
+                </div>
+                <div id="links">
+                    <a title="מאמר תביעות קטנות" href="./content/תביעות קטנות.pdf" target="_blank">תביעות קטנות</a>
+                    <a title="חוק הגנת הצרכן" href="./content/חוק הגנת הצרכן.pdf" target="_blank">חוק הגנת הצרכן</a>
+                    <a title="מאמד פינוי מושכר" href="./content/פינוי מושכר.pdf" target="_blank">פינוי מושכר</a>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div id="rights">
-            <img src="./images/we.png" style="height: 110px; width: 120px;" />
+            <div id="mainlogo">
+                <img alt="brot shahar lawyer" title="ברוט שחר עורך דין" src="./images/mainlogo.png" width="350px"
+                    height="110px" />
+            </div>
+            <div id="imgh">
+                <img alt="brot shahar lawyer" title="ברוט שחר עורך דין" src="./images/logo.png" width="120px"
+                    height="110px" />
+            </div>
+        </div>
+            <br>
             <p>ברוט שחר <span id="year"></span> @ כל הזכויות שמורות</p>
         </div>
     </footer>

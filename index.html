@@ -131,11 +131,11 @@
                 <p>הוצאה לפועל</p>
                 <p>תאונות דרכים</p>
                 <p>חוזים</p>
-           
+
                 <p>ליטיגציה</p>
                 <p>ביטוח</p>
                 <p>גישור</p>
-          
+
                 <p>שכירות</p>
                 <p>הגנת הצרכן</p>
                 <p>סכסוכי שכנים</p>
@@ -198,17 +198,20 @@
             </div>
             <div id="contact">
                 <form>
-                    <label for="id_name"> שם מלא*</label>
-                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
+                    <!-- <label for="id_name"> שם מלא*</label> -->
+                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" placeholder="שם מלא*"
+                        required />
                     <span id="nameError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="id_phone"> טלפון נייד*</label>
-                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
+                    <!-- <label for="id_phone"> טלפון נייד*</label> -->
+                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone"
+                        placeholder="טלפון נייד*" required />
                     <span id="phoneError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
-                    <label for="email">דואר אלקטרוני*</label>
-                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
-                    <span id="emailError" class="error"><i class="fa-solid fa-circle-dot" ></i></span><br><br>
+                    <!-- <label for="email">דואר אלקטרוני*</label> -->
+                    <input onblur="validateInputs('email')" type="email" id="email" name="email"
+                        placeholder="דואר אלקטרוני*" required />
+                    <span id="emailError" class="error"><i class="fa-solid fa-circle-dot"></i></span><br><br>
 
                     <div id="b">
                         <button type="submit" id="myBtn"> שלח </button>
@@ -251,7 +254,16 @@
     </main>
     <footer>
         <div id="rights">
-            <img alt="brot shahar lawyer" src="./images/we.png" style="height: 110px; width: 120px;" />
+            <div id="mainlogo">
+                <img alt="brot shahar lawyer" title="ברוט שחר עורך דין" src="./images/mainlogo.png" width="350px"
+                    height="110px" />
+            </div>
+            <div id="imgh">
+                <img alt="brot shahar lawyer" title="ברוט שחר עורך דין" src="./images/logo.png" width="120px"
+                    height="110px" />
+            </div>
+        </div>
+            <br>
             <p>ברוט שחר <span id="year"></span> @ כל הזכויות שמורות</p>
         </div>
     </footer>
